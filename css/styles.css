@@ -5,7 +5,7 @@
 .profilepic{
   border-radius: 100%;
   width: 80px;
-  margin-top: 20px;
+  margin-top: 500px;
 }
 
 .topNav nav{
@@ -61,4 +61,27 @@
 
 .color{
   color: #0fa0ce;
+}
+
+.left{
+  background-color: #93E1D8;
+}
+
+.middle {
+  background-color: #8F8389;
+}
+
+.right{
+  background-color: #A7C4A0;
+}
+
+.box{
+  border-radius: 5px;
+  margin-top: 40px;
+  text-align: center;
+  height: 220px;
+  line-height: 220px;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 18px;
 }
