@@ -1,0 +1,67 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Javascript Notes · Sadio Ali</title><meta name="description" content="Javascript Notes - SA"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">HOME</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://www.linkedin.com/in/sadioali" target="_blank" class="nav-list-link">LINKEDIN</a></li><li class="nav-list-item"><a href="https://github.com/5adiyah" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Javascript Notes</h1><div class="post-info">Jan 7, 2016</div><div class="post-content"><p><strong>Notes from Codecademy Lessons</strong> - <em>I’ve extracted them here for easier reference. All credits for the following notes are due to Codecademy. Visit their site to practice implementing these lessons.</em></p>
+<h2 id="What-can-we-use-JavaScript-for"><a href="#What-can-we-use-JavaScript-for" class="headerlink" title="What can we use JavaScript for?"></a>What can we use JavaScript for?</h2><ul>
+<li>Make websites respond to user interaction</li>
+<li>Build apps and games (e.g. blackjack)</li>
+<li>Access information on the Internet (e.g. find out the top trending words on Twitter by topic)</li>
+<li>Organize and present data (e.g. automate spreadsheet work; data visualization)</li>
+</ul>
+<h2 id="Data-Types"><a href="#Data-Types" class="headerlink" title="Data Types"></a>Data Types</h2><p>Data comes in various types:</p>
+<ol>
+<li><strong>Numbers</strong> are quantities, just like you’re used to. You can do math with them.</li>
+<li><strong>Strings</strong> are sequences of characters, like the letters a-z, spaces, and even numbers. Strings are extremely useful as labels, names, and content for your programs. These are all strings: <strong>“Ryan” “4” </strong>and<strong> “What is your name?” </strong>To write a string, surround words with quotes.</li>
+<li><strong>**</strong>Boolean<strong> A boolean is either true or false. </strong>23 &gt; 10 is true  **  </li>
+</ol>
+<h2 id="Using-console-log"><a href="#Using-console-log" class="headerlink" title="Using console.log"></a>Using console.log</h2><ul>
+<li>console.log() will take whatever is inside the parentheses and log it to the console below your code</li>
+<li>This is commonly called <strong>printing out</strong></li>
+</ul>
+<h2 id="Comparisons"><a href="#Comparisons" class="headerlink" title="Comparisons"></a>Comparisons</h2><p>List of comparison operators:</p>
+<ul>
+<li>Greater than <code>&gt;</code></li>
+<li>Less than <code>&gt;</code></li>
+<li>Less than or equal to <code>&lt;=</code></li>
+<li>Greater than or equal to <code>&gt;=</code></li>
+<li>Equal to <code>==</code></li>
+<li>Not equal to <code>!==</code></li>
+</ul>
+<h2 id="Manipulating-numbers-amp-strings"><a href="#Manipulating-numbers-amp-strings" class="headerlink" title="Manipulating numbers &amp; strings"></a>Manipulating numbers &amp; strings</h2><ul>
+<li>Comparisons (e.g. <code>&gt;</code> , <code>&lt;=</code>)</li>
+<li>Modulo (e.g. <code>%</code>)</li>
+<li>String length (e.g. <code>&quot;Emily&quot;.length;</code>)</li>
+<li>Substrings (e.g. <code>&quot;hi&quot;.substring(0, 1);</code>)</li>
+</ul>
+<h2 id="If-Statements"><a href="#If-Statements" class="headerlink" title="If Statements"></a>If Statements</h2><p>An if statement is made up of the <strong>if</strong> keyword, a <strong>condition</strong>, and a pair of curly braces <strong>{ }</strong>. If the answer to the condition is yes, the code inside the curly braces will run.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(condition)&#123;</span><br><span class="line">  <span class="comment">//if condition is true</span></span><br><span class="line">  <span class="comment">// do this code</span></span><br><span class="line">&#125; <span class="keyword">else</span>&#123;</span><br><span class="line">  <span class="comment">// "otherwise"</span></span><br><span class="line">  <span class="comment">// do this code instead**</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h2><p>To do more complex coding, we need a way to ‘save’ the values from our coding. We do this by defining a <strong>variable</strong> with a specific, case-sensitive name. Once you create (<em>or declare</em>) a variable as having a particular name, you can then call up that value by typing the variable name.</p>
+<p><code>var varName = data;</code></p>
+<h2 id="Function-Syntax"><a href="#Function-Syntax" class="headerlink" title="Function Syntax"></a>Function Syntax</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> functionName = <span class="function"><span class="keyword">function</span>(<span class="params"> </span>) </span>&#123;</span><br><span class="line">  <span class="comment">// code code code</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>**</strong>var<strong> declares a variable named </strong>functionName**</li>
+<li>The keyword <strong>function</strong> tells the computer that</li>
+<li><strong>**</strong>functionName** is a function and not something else.</li>
+<li><strong>**</strong>Parameters<strong> go in the parenthesis after </strong>function**</li>
+<li>The code block is the reusable code that is between the {}</li>
+<li>Each line of code inside { } must end with a semi-colon.</li>
+<li>The entire function must end with a semi-colon.</li>
+<li>To use the function, we call the function by typing the function’s name and putting a parameter value inside parenthesis after it.</li>
+</ul>
+<h2 id="Global-vs-Local-Variables"><a href="#Global-vs-Local-Variables" class="headerlink" title="Global vs Local Variables"></a>Global vs Local Variables</h2><p><strong>Scope</strong> can be local or global:</p>
+<p><strong>Global Variables</strong></p>
+<ul>
+<li>Variables defined outside a function are accessible anywhere once they have been declared. They are called <strong>global variables </strong>and their scope is <strong>global.</strong></li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> globalVar = <span class="string">"hello"</span>;  </span><br><span class="line"><span class="keyword">var</span> foo = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;  </span><br><span class="line">  <span class="built_in">console</span>.log(globalVar);  <span class="comment">// prints "hello"  </span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>The variable globalVar can be accessed anywhere, even inside the function foo.h</li>
+</ul>
+<p><strong>Local Variables</strong></p>
+<ul>
+<li>Variables defined inside a function are <strong>local variables.</strong>  </li>
+<li>They cannot be accessed outside of that function. Their scope is <strong>local.</strong></li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> bar = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)  </span>&#123;  </span><br><span class="line"> <span class="keyword">var</span> localVar = <span class="string">"howdy"</span>;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="built_in">console</span>.log(localVar);; <span class="comment">//error</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>The variable localVar only exists inside the function bar. Trying to print localVar outside the function gives a error.</li>
+</ul>
+<p><em>To be continued</em></p>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/01/12/Html-and-Css/" class="prev">PREV</a></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
