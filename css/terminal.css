@@ -1,26 +1,12 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:700);
-* {
+/** {
   padding: 0;
   margin: 0;
-}
+}*/
 
 body {
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   font: bold 16px "Lato", arial, sans-serif;
-  height: 100vh;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100vw;
 }
 
 .window {
