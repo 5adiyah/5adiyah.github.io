@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sadio Ali</title>
+    <link rel="stylesheet" href="css/terminal.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/skeleton.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <div class="logo twelve columns">
+          <h1><img class="profilepic" src="images/favicon.png" /></h1>
+          <div class="topNav twelve columns">
+            <nav class="mainNav">
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <form id="contact-form" action="https://formspree.io/your@email.com" method="POST">
+          <div class="row">
+            <div class="six columns">
+              <label for="name">Full Name</label>
+              <input class="u-full-width" type="text" name="name" placeholder="Name" required/><br/>
+            </div>
+            <div class="six columns">
+              <label for="name">Email Address</label>
+              <input class="u-full-width" type="text" name="email" placeholder="email" required/><br/>
+            </div>
+          </div>
+          <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" name="message" placeholder="Hi Sadio…" id="message"></textarea>
+
+          <input class="button-primary" id="contact-submit" type="submit" value="Submit" />
+        </form>
+      </div>
+
+
+
+    </div>
+
+
+
+  </body>
+</html>
