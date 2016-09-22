@@ -65,17 +65,6 @@
   color: #0fa0ce;
 }
 
-.left{
-  background-color: #93E1D8;
-}
-
-.middle {
-  background-color: #8F8389;
-}
-
-.right{
-  background-color: #A7C4A0;
-}
 
 .floatNone{
   float: none;
@@ -83,11 +72,9 @@
 }
 
 .workBox{
-  border-radius: 5px;
   margin-top: 40px;
   text-align: center;
   color: #333;
   text-transform: uppercase;
   font-size: 18px;
-  padding-top: 8px;
 }
