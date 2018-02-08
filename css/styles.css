@@ -79,10 +79,25 @@
   font-size: 18px;
 }
 
+.postTitle{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #fdbc55;
+  margin-bottom: 5px;
+}
+
+.postBody {
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
 
 @media only screen and (max-width: 1210px) {
     .pic {
       width: 100%;
     }
 }
-
