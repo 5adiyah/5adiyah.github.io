@@ -1,0 +1,21 @@
+body{
+    background-color: #15232d;
+    line-height: 2.5em;
+}
+
+pre {
+    font-size: 14px;
+}
+
+code{
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    color: #87cefa;
+}
+
+.hljs-keyword, .hljs-selector-tag, .hljs-name, .hljs-attr {
+    color: #ffc600;
+}
+
+a.link{
+    color: #87fc79;
+}

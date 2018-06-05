@@ -1,78 +1,113 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sadio Ali</title>
-    <link rel="stylesheet" href="css/terminal.css" media="screen" title="no title">
-    <link rel="stylesheet" href="css/skeleton.css" media="screen" title="no title">
-    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-  </head>
-  <body>
+<html lang="en">
 
-    <div class="container">
-      <div class="header">
-        <div class="logo twelve columns">
-          <h1><img class="profilepic" src="images/favicon.png" /></h1>
-          <div class="topNav twelve columns">
-            <nav class="mainNav">
-              <ul>
-                <li><a href="http://5adiyah.tech">HOME</a></li>
-                <li><a href="blog.html">BLOG</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="https://github.com/5adiyah/">GITHUB</a></li>
-                <li><a href="https://www.linkedin.com/in/sadioali">LINKEDIN</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<title>Sadio Ali</title>
+</head>
 
-      <div class="aboutMe" id="about">
-        <div class="window">
-          <div class="icons"><span></span></div>
-          <div class="title">about_me</div>
-          <pre class="lang-html"><code>
-            var aboutme = {
-              firstName: <span class="color">"Sadio"</span>,
-              lastName: <span class="color">"Ali"</span>,
-              title: <span class="color">"Front-end Developer"</span>,
-              github: <span class="color">"http:github.com/5adiyah"</span>
-            };
+<body>
+<div class="wrapper">
+<pre>
+  <code class="json">
+    {
+      "name" : "Sadio Ali",
+      "contactInfo" : [
+        {"mail" : "sadioali@gmail.com"},
+        {"phone" : "971-444-9968"},
+        {"GitHub" : <a class="link" href='https://github.com/5adiyah'>"Github Link"</a>},
+        {"Linkedin" : <a class="link" href='https://www.linkedin.com/in/sadioali/'>"Linkedin Link"</a>}],
+      "stack" : [
+        "HTML, Pug",
+        "CSS, CSSGrid",
+        "JavaScript",
+        "Ember.JS",
+        "Java",
+        "Github"
+      ],
+      "experience" : [
+        {
+            "what" : "Front End Developer",
+            "where" : "Daughters of Eve",
+            "for" : "6 years"
+        },
+        {
+            "what" : "Quality Assurance Analysit",
+            "where" : "PlusQA",
+            "for" : "5 months"
+        },
+        {
+            "what" : "Junior Web App Developer",
+            "where" : "Burkson Technologies",
+            "for" : "5 months"
+        },
+        {
+            "what" : "Jr Developer Intern",
+            "where" : "Story Bulbs",
+            "for" : "2 months"
+        },
+        {
+            "what" : "Student web designer",
+            "where" : "Portland State University SOE",
+            "for" : "1 year"
+        }
+      ],
+      "education" : [
+        {
+            "what" : "Web & Mobile Dev Certificate",
+            "where" : "Epicodus",
+            "for" : "10 months"
+        },
+        {
+            "what" : "Bachelor of Science Degree",
+            "where" : "Portland State University",
+            "when" : "Fall 2018"
+        },
+        {
+            "what" : "Associates Degree",
+            "where" : "Portland Community College",
+        }
+      ],
+      "projects" : [
+        {
+            "name" : <a class="link" href="http://daughtersofeve.org/">"daughters of eve website"</a>,
+            "description" : "Ember.js front end with Wordpress backend site for local nonprofit"
+        },
+        {
+            "name" : <a class="link" href="http://camp.daughtersofeve.org/">"camp silah info-site"</a>,
+            "description" : "Ember.JS site for 2018 summer camp"
+        },
+        {
+            "name": <a class="link" href="http://daughtersofeve.org/upandout">"Up And Out"</a>,
+            "description" : "Wordpress website for local non profit"
+        },
+        {
+            "name" : <a class="link" href="https://github.com/5adiyah/DoeApp">"daughters of eve android app"</a>,
+            "description" : "App allows DOE Board Members to add events, view user submitted event testimonials and feedback. Non-board members can view board members, upcoming events, event photos, and submit feedback from events"
+        },
+        {
+            "name" : <a class="link" href="http://tickets.daughtersofeve.org/">"DOE ticket management site"</a>,
+            "description" : "Ember.Js event check in app"
+        }
+      ],
+      "skills" : [
+        "Web Development: HTML, CSS and CSS Frameworks, JQuery, Javascript, Firebase, Github, Proficiency with graphic design tools such as Photoshop and Sketch",
+        "Javascript Frameworks: Proficient in Ember JS, familiarity with React and Angular 2",
+        "QA Testing: Android applications, iOS applications, Website, and Mobile web testing using tools such as Android Studio, and iOS Console. Bug tracking using JIRA, Github, Asana and Redmine",
+        "6 Years Web Development Experience",
+        "Self-starter; Capable of working independently, as well as within a group setting",
+        "Attention to detail, Time management & prioritization skills",
+        "Resourceful & loves learning"
+      ],
+    }
+  </code>
+</pre>
+</div>
+</body>
 
-          </code></pre>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="container">
-      <div class="workSection" id="work">
-        <div class="work">
-          <div class="left workBox four columns">
-            <a href="https://github.com/5adiyah/FarmersMarket"><img src="images/farmersmarket.jpg" height="220px" class="pic"></a>
-          </div>
-          <div class="middle workBox four columns">
-            <a href="https://github.com/5adiyah/DoeApp"><img src="images/doeapp.jpg" height="220px" class="pic"></a>
-          </div>
-          <div class="right workBox four columns">
-            <a href="http://daughtersofeve.org"><img src="images/doesite.jpg" height="220px" class="pic"></a>
-          </div>
-        </div>
-
-        <div class="work">
-          <div class="left workBox four columns">
-            <a href="http://tickets.daughtersofeve.org/"><img src="images/registrationApp.jpg" height="220px" class="pic"></a>
-          </div>
-          <div class="middle workBox four columns">
-            <a href="https://github.com/5adiyah/githubAPI"><img src="images/github.jpg" height="220px" class="pic"></a>
-          </div>
-          <div class="right workBox four columns">
-            <a href="http://www.sadiyahandomar.com/"><img src="images/weddingSite.jpg" height="220px" class="pic"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
 </html>
