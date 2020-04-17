@@ -1,0 +1,48 @@
+.site-logo{
+    padding-top: 50px;
+}
+
+.site-logo img, #mugshot img{
+    display: block;
+    margin: 0 auto;
+}
+
+.site-logo img{
+  width: 400px;
+}
+
+#mugshot img{
+    margin-top: 50px;
+}
+
+.generate{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.generate button{
+    background-color: #5DC2B0;
+    border: none;
+    padding: 20px 10px;
+    color: white;
+    font-family: Cabin,sans-serif;
+    letter-spacing: 0.75;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #FED766;
+}
+
+#camper{
+    font-family: Cabin,sans-serif;
+    font-size: 108px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #304872;
+    padding: 0;
+    margin: 0 auto;
+}
+}
