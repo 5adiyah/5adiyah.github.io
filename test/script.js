@@ -12,7 +12,7 @@ var config = {
 firebase.initializeApp(config);
 var db = firebase.database();
 
-// CREATE REWIEW
+// CREATE Name
 
 var raffleForm = document.getElementById('raffleForm');
 var fullName   = document.getElementById('fullName');
@@ -33,7 +33,7 @@ raffleForm.addEventListener('submit', (e) => {
     hiddenId.value = '';
 });
 
-// READ REVEIWS
+// READ Names
 
 var raffle = document.getElementById('names');
 var raffleRef = db.ref('/raffle');
@@ -56,7 +56,7 @@ raffleRef.on('child_removed', (data) => {
 });
 
 raffle.addEventListener('click', (e) => {
-    var reviewNode = e.target.parentNode
+    var reviewNode = e.target.parentNode;
 
     // UPDATE Name
     if (e.target.classList.contains('edit')) {
